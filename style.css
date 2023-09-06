@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&family=Poppins:wght@300;400;600;700&family=Raleway:wght@200&family=Roboto:wght@100;300;400;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+header {
+  text-align: end;
+  padding-top: 15px;
+  padding-right: 45px;
+}
+header .nav-links a {
+  text-decoration: none;
+  color: black;
+  padding-right: 50px;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  margin-top: 75px;
+  padding-left: 80px;
+}
+.container .left-side {
+  margin-top: 10px;
+  margin-left: 120px;
+}
+.container .left-side h1 {
+  font-weight: 700px;
+  padding-bottom: 20px;
+  color: #21243D;
+}
+.container .left-side p {
+  color: #21243D;
+  font-weight: 400px;
+}
+.container .left-side button {
+  margin-top: 20px;
+  background-color: #FF6464;
+  font-size: 20px;
+  font-weight: 500px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+}
+.container .left-side button:hover {
+  background-color: rgb(255, 150, 131);
+}
+.container .right-side {
+  margin-left: 250px;
+}
+.container .right-side img {
+  height: 243px;
+  width: 243px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.recent-posts {
+  display: flex;
+  box-sizing: border-box;
+  width: 1340px;
+  height: 420px;
+  background-color: #EDF7FA;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+.recent-posts .text {
+  font-size: 22px;
+  font-weight: 400px;
+  color: #21243D;
+}
+.recent-posts a {
+  text-decoration: none;
+  color: #00A8CC;
+}
+.recent-posts .design-system {
+  margin-top: 40px;
+  width: 418px;
+  height: 295px;
+  background-color: #fff;
+  margin-left: -130px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.recent-posts .design-system h2 {
+  margin: 15px;
+  color: #21243D;
+}
+.recent-posts .design-system span {
+  margin: 15px;
+  color: #21243D;
+}
+.recent-posts .design-system p {
+  margin: 15px;
+  color: #21243D;
+}
+.recent-posts .perfect-icons {
+  margin-top: 40px;
+  background-color: #fff;
+  width: 418px;
+  height: 295px;
+  margin-left: 18px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.recent-posts .perfect-icons h2 {
+  margin: 15px;
+  color: #21243D;
+}
+.recent-posts .perfect-icons span {
+  margin: 15px;
+  color: #21243D;
+}
+.recent-posts .perfect-icons p {
+  margin: 15px;
+  color: #21243D;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 200px;
+}
+.third-container hr {
+  border: 1px solid #E0E0E0;
+}
+.third-container span {
+  margin-left: 20px;
+  color: #8695A4;
+  font-size: 20px;
+}
+.third-container p {
+  margin-top: 10px;
+  color: #21243D;
+  font-weight: 400px;
+  font-size: 16px;
+}
+.third-container button {
+  width: 64px;
+  height: 25px;
+  background-color: #142850;
+  color: #fff;
+  border: 1px solid #142850;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 900;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.third-container .first-product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.third-container .first-product img {
+  float: left;
+  width: 246px;
+  height: 180px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.third-container .first-product h2 {
+  margin-bottom: 20px;
+  color: #21243D;
+}
+.third-container .second-product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.third-container .second-product img {
+  float: left;
+  width: 246px;
+  height: 180px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.third-container .second-product h2 {
+  margin-bottom: 20px;
+  color: #21243D;
+}
+.third-container .third-product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.third-container .third-product img {
+  float: left;
+  width: 246px;
+  height: 184px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.third-container .third-product h2 {
+  margin-bottom: 20px;
+  color: #21243D;
+}
+
+.footer {
+  text-align: center;
+  width: 1152px;
+  height: 182px;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+.footer a {
+  padding: 10px;
+  color: #21243D;
+  font-size: 30px;
+}
+.footer p {
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
